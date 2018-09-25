@@ -16,4 +16,4 @@ spec:
       - name: tomcat
         image: tomcat:9.0
         ports:
-        - containerPort: 8080
+        - containerPort: 
