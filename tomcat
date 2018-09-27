@@ -19,3 +19,10 @@ spec:
         - containerPort:8080
         node selector:
           storage: ssd
+          livenessProbe:
+            httpGet: 
+            path: /
+            port: 8080
+           initialDalaySeconds: 30
+           periodSeconds: 30
+      
